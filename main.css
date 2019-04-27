@@ -35,7 +35,7 @@ li a {
     text-decoration: none;
     color: white;
     opacity: 0.8;
-    transition: 1s;
+    transition: .1s;
 }
 
 .topnav-email {
@@ -52,5 +52,22 @@ a:hover {
     text-decoration: none;
     font-size: .8em;
     padding: 15px;
-    color: black
+    color: black;
+    
+}
+
+.github-button {
+    background-color: #F12711;
+    color: white;
+    border: none;
+    font-size: .5em;
+    padding: .5em 1.5em;
+    margin-left: 100px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+section {
+    padding: 2em;
 }
