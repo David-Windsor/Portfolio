@@ -35,7 +35,7 @@ li a {
     text-decoration: none;
     color: white;
     opacity: 0.8;
-    transform: 2s;
+    transition: 1s;
 }
 
 .topnav-email {
@@ -46,4 +46,11 @@ li a {
 a:hover {
     text-decoration: underline;
     opacity: 1;
+}
+
+.fitness-link {
+    text-decoration: none;
+    font-size: .8em;
+    padding: 15px;
+    color: black
 }
