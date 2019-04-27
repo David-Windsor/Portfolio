@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 1.4em;
+}
+
+.topnav {
+    box-shadow: 0px 0px 10px #323232;
+    margin-bottom: 1em;
+    position: sticky;
+    background: #f12711;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.topnav ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    transform: 2s;
+}
+
+.topnav-email {
+    color: white;
+    opacity: 1;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
