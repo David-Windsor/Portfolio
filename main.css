@@ -1,12 +1,29 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 body {
     font-size: 1.4em;
+    background: #050505;
 }
 
+section {
+    margin-left: 5%;
+}
+h1 {
+    line-height: 4rem;
+    color: rgb(247, 242, 242);
+    letter-spacing: .8px;
+    padding: .1em;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: rgb(247,242,242)
+}
 .topnav {
     box-shadow: 0px 0px 10px #323232;
     margin-bottom: 1em;
@@ -33,13 +50,13 @@ li {
 
 li a {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
     opacity: 0.8;
     transition: .1s;
 }
 
 .topnav-email {
-    color: white;
+    color: #FFFFFF;
     opacity: 1;
 }
 
@@ -48,24 +65,27 @@ a:hover {
     opacity: 1;
 }
 
+.text-limit-wrapper {
+    width: 65%; 
+}
+
 .fitness-link {
     text-decoration: none;
     font-size: .8em;
     padding: 15px;
-    color: black;
+    color: #000000;
     
 }
 
 .github-button {
-    background-color: #F12711;
-    color: white;
+    background-color: #f12711;
+    color: #FFFFFF;
     border: none;
     font-size: .5em;
     padding: .5em 1.5em;
     margin-left: 100px;
     text-decoration: none;
     border-radius: 5px;
-    
 }
 
 section {
