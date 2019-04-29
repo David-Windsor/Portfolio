@@ -6,15 +6,15 @@
 
 body {
     font-size: 1.4em;
-    background: #050505;
+    font-family: 'Lato', sans-serif;
 }
 
 section {
     margin-left: 5%;
 }
+
 h1 {
     line-height: 4rem;
-    color: rgb(247, 242, 242);
     letter-spacing: .8px;
     padding: .1em;
 }
@@ -22,7 +22,16 @@ h1 {
 p {
     font-size: 1.25rem;
     line-height: 1.5rem;
-    color: rgb(247,242,242)
+}
+
+span {
+    display: inline-block;
+    
+}
+
+img {
+    width: 40%;
+    border-radius: 30px;
 }
 .topnav {
     box-shadow: 0px 0px 10px #323232;
@@ -34,7 +43,7 @@ p {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f5af19, #f12711);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
 }
 
 .topnav ul {
@@ -86,9 +95,12 @@ a:hover {
     margin-left: 100px;
     text-decoration: none;
     border-radius: 5px;
-   
+    
 }
 
+.inner-project-wrapper {
+    padding: 2em 0em;;
+}
 section {
     padding: 2em;
 }
